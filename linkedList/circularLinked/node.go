@@ -6,3 +6,7 @@ type Node struct {
 	nextNode *Node
 	value	string 		// could be any type
 }
+
+type CircularLinkedList struct {
+	firstNode *Node
+}
